@@ -1,0 +1,178 @@
+body {
+    direction: rtl;
+}
+
+
+
+
+
+
+.navsiteta li strong {
+    background: #3749b400;
+}
+
+.box-title {
+    border-radius: 10px;
+    background-color: #a50000;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-bottom: transparent;
+}
+
+.panel-default {
+    box-shadow: 0 0 2px rgb(0 0 0 / 0%);
+    background: #fff0;
+}
+.matchflex {
+    margin: 0;
+}
+
+.box-title h1,.box-title h2 ,.box-title h3 {
+    font-size: 20px;
+    background: #a50000;
+    font-weight: 900;
+    color: #fff;
+    float: unset;
+    text-align: center!important;
+}
+strong {
+    font-weight: 800;
+}
+
+@media (max-width: 600px){
+    .box-title h1 {
+        font-size: 16px;
+    }
+    .menublabel.op {
+        background: #7e7e7e47;
+    }
+}
+
+.navbar-brand {
+    background: #3749b400;
+}
+.match-event {
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #2d237b;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: unset;
+}
+.first-team,.left-team {
+
+    background-color: #221a62;
+    border-radius: 10px;
+    color:#ffffff;
+
+
+}
+
+
+
+.team-name {
+    font-size: 18px;
+    margin: 10px auto;
+    display: flex;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 10px;
+    flex-direction: column;
+}
+
+.left-team .team-logo {
+    float: right;
+}
+
+@media (max-width: 600px){
+    .team-name {
+        text-align: center;
+    }
+    
+    .team-name-ar {
+        font-size: 12px !important;
+        font-weight: 700;
+    }
+
+    .team-name-en {
+        font-size: 10px !important;
+        font-weight: 500;
+    }
+    #match-hour {
+    font-size: 10px !important;
+    }
+    #result-now {
+    font-size: 15px !important;
+    margin-top: 5px;
+    }
+    
+    .tv-title {
+    font-size: 12px !important;
+    }
+    .tv-content {
+    font-size: 11px !important;
+    }
+.team-name {
+    line-height: 20px;
+}
+
+}
+
+@media (min-width: 600px){
+
+    .team-name-ar {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .team-name-en {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .team-logo {
+        float: right;
+        width: 30%;
+    }
+
+    .first-team,.left-team {
+        width: 35%;
+        border: 1px solid #7c86da;
+    }
+
+    .match-time {
+        width: 29%;
+    }
+}
+
+.post-title a{
+    color:white;
+    font-size: 14px;
+}
+.blog-post.hentry.index-post{
+    background:transparent;
+
+    text-align: center;
+    padding: 30px 20px;
+    border: 1px solid #443d8d;
+    border-radius: 10px;
+}
+.posts-thumb img{
+    border-radius: 10px;
+}
+#match-hour{
+    color:#c7def2;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+#result-now{
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.tabsbox {
+    color: #ffffff;
+    background: #fff0;
+}
