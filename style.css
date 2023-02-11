@@ -1,0 +1,202 @@
+    
+
+
+
+.navsiteta li strong {
+    background: #3749b400;
+}
+
+.box-title {
+    border-radius: 10px;
+    background-color: #a50000;
+    margin-bottom: 40px;
+    border-bottom: transparent;
+}
+
+.card-title1{
+    text-align:right;
+    font-size: 16px;
+    font-weight: 800;
+    
+}
+.card-title2{
+    text-align:right;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+
+.panel-default {
+    box-shadow: 0 0 2px rgb(0 0 0 / 0%);
+    background: #fff0;
+}
+.matchflex {
+    margin: 0;
+}
+
+.box-title h1,.box-title h2 ,.box-title h3 {
+    font-size: 20px;
+    background: #47474700;
+    font-weight: 900;
+    color: #fff;
+    float: unset;
+    text-align: center!important;
+}
+strong {
+    font-weight: 800;
+}
+
+@media (max-width: 600px){
+    .box-title h1 {
+        font-size: 16px;
+    }
+    .menublabel.op {
+        background: #7e7e7e47;
+    }
+}
+
+.navbar-brand {
+    background: #3749b400;
+}
+.match-event {
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #a50000;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: unset;
+}
+.first-team,.left-team {
+
+    background-color: #ffffff;
+    border-radius: 10px;
+    color:#121a23;
+
+
+}
+
+
+
+.team-name {
+   
+    font-size: 16px;
+    /* margin: 28px auto; */
+    
+    font-weight: 600;
+    text-align: right;
+    padding-right: 5px;
+    text-align: center;
+
+}
+
+.left-team .team-logo {
+    float: right;
+}
+
+
+
+@media (min-width: 600px){
+    .team-logo {
+        float: right;
+        width: 30%;
+    }
+
+    .first-team,.left-team {
+        width: 35%;
+        border: 1px solid #f76868;
+    }
+
+    .match-time {
+        width: 29%;
+    }
+}
+
+.post-title a{
+    color:#000000;
+    font-size: 14px;
+}
+.blog-post.hentry.index-post{
+    background:transparent;
+
+    text-align: center;
+    padding: 30px 20px;
+    border: 1px solid #a50000;
+    border-radius: 10px;
+}
+.posts-thumb img{
+    border-radius: 10px;
+}
+#match-hour{
+    color:#c7def2;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+#result-now{
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.tabsbox {
+    color: #000000;
+    background: #fff0;
+}
+
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.myframe{
+    min-height: 400px;
+    width: 100%;
+    padding-top:0.2rem;
+}
+
+#table-league {
+    color: #c7def2;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#table-score {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+}
+@media (max-width: 600px) {
+#matchLeague {
+    font-size: 10px !important;
+}
+.team-name {
+    font-size: 12px !important;
+}
+h2 {
+    font-size: 16px !important;
+}
+.card-title1 {
+    font-size: 15px !important;
+}
+.card-title2 {
+    font-size: 14px !important;
+}
+p {;
+    font-size: 14px !important;
+}
+
+  .blog-post.hentry.index-post {
+    padding: 5px 10px;
+    }
+    .post-title a {
+    font-size: 11px;
+}
+}
+    
+    
