@@ -61,7 +61,7 @@ $(window).on("orientationchange", () => {
    if(screen.width > screen.height){
        change to landscape
    } else {
-      // change to portrait
+       change to portrait
    }
 });
 
@@ -69,4 +69,15 @@ $(window).on("orientationchange", () => {
 $(window).on("load", function() {
       $(".preloader").fadeOut("slow")
     })
-
+// fullscreen enter on mobile device
+player.on('enterfullscreen', event => {
+	try {
+		screen.orientation.lock('landscape');
+	} catch (e) {}
+});
+// when exit fullscreen
+player.on('exitfullscreen', event => {
+	try {
+		screen.orientation.lock('portrait');
+	} catch (e) {}
+});
