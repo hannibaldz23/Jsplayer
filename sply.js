@@ -59,7 +59,7 @@ const defaultOptions = {controls,captions: {active: true, update: false, languag
 
 $(window).on("orientationchange", () => {
    if(screen.width > screen.height){
-      // change to landscape
+       change to landscape
    } else {
       // change to portrait
    }
